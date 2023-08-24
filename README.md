@@ -11,6 +11,6 @@ I shall not give a complete list of system requirements, but as a rough guidelin
 * (optional) and further functionality can be added with a licensed copy of [Maple](https://www.maplesoft.com/) which [can be ran via Sage](https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/maple.html),
 
 ## Acknowledgements
-Not all the code contained in this repository is entirely written by me. The are two expections
+Not all the code contained in this repository is entirely written by me, there are two execptions.
 * I had no part in writing `grupos_que_actuan.sage` and `polyB.sage`; these were programmed by [Antonino Behn and Anita Rojas](https://sites.google.com/a/u.uchile.cl/mat-ciencias-prof-anita-rojas/home/proyectos) for the papers [*Adapted hyperbolic polygons and symplectic representations for group actions on Riemann surfaces*](https://doi.org/10.1016/j.jpaa.2012.06.030) by Antonio Behn, Rubí E. Rodríguez and Anita M. Rojas, and [*A SAGE package for equisymmetric stratification in Mg*](https://doi.org/10.1080/10586458.2020.1763872) by A. Behn, A. M. Rojas, M. Tello-Carrera. I have included them here for ease of access, as I use them to compute data on orbits of theta characteristics on which a classifier is trained.
 * The files `monopole_plotting.py`, `V4_nahmdata.py` and `minimal_plotting_from_file.ipynb` were developed from an initial source provided to me by [Paul Sutcliffe](https://www.maths.dur.ac.uk/users/p.m.sutcliffe/index.html).
