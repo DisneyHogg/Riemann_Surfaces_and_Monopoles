@@ -6,7 +6,6 @@
 # Practical imports
 import numpy as np
 from scipy import integrate
-from skimage.measure import marching_cubes
 from numpy import linalg as LA
 from scipy.linalg import null_space
 import sys
