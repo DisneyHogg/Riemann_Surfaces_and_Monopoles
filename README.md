@@ -1,5 +1,5 @@
 # Symmetries of Riemann Surfaces and Magnetic Monopoles 
-This repository contains code giving calculations from my PhD thesis. The files are split according to which of the two main chapters the code is relevant for.
+This repository contains code giving calculations from my [PhD thesis](http://dx.doi.org/10.7488/era/4167). The files are split according to which of the two main chapters the code is relevant for.
 One section of the thesis is based upon [*Bring's Curve: Old and New*](https://arxiv.org/abs/2208.13692) by H. W. Braden and Linden Disney-Hogg, and the code relevant for that 
 section is available [here](https://github.com/DisneyHogg/Brings\_Curve). 
 
