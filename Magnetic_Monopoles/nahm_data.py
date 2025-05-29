@@ -66,10 +66,16 @@ def polarised_to_matrices(XY, qs, exponent, sign=1):
 
 def invariant_algorithm(XY, Q, level, sign=1):
     r"""
-    Return the invariant vector corresponding to a polynomial at level $\in \lbrace -1, 0, 1 \rbrace$.
+    Return the invariant vector corresponding to a polynomial `Q` at level
+    `level` $\in \lbrace -1, 0, 1 \rbrace$, given matrices `X, Y = XY` which
+    are the raising and lowering operators of the corresponding su(2) rep.
+
+    This function completes the polarisation step, and then calls 
+    `polarised_to_matrices` to complete the heighest weight vector 
+    identification. 
     """
-    # We will assume this algorithm has only ever been called internally, and so not apply sense checks
-    # to the inputs XY, Q, or level. 
+    # We will assume this algorithm has only ever been called internally, and 
+    # so not apply sense checks to the inputs XY, Q, or level. 
     
     # Record some key variables we will reuse.
     deg = Q.degree()
@@ -213,10 +219,19 @@ def invariant_algorithm(XY, Q, level, sign=1):
 
 def find_invariant_vectors(Ms, Qs, sign=1, exclude_level_zero=False):
     r"""
-    Given matrices Ms which gives a basis of su(2), either of the form of r1, r2, r3, or X, Y, H,
-    and a polynomial of an appropriate corresponding degree, return the invariant vectors. 
+    Given matrices Ms which gives a basis of su(2), either of the form of r1, 
+    r2, r3, or X, Y, H, and a polynomial of an appropriate corresponding 
+    degree, return the invariant vectors. 
     
     Returns rs as a list and Ss as a list.
+
+    The choice of base ring for the matrices and polynomials is important. They
+    should be compatible in the sense that both rings admit a compatible 
+    sqrt(-1), and that the matrices can be multiplied by elements of the 
+    polynomials' base ring. 
+
+    The argument `sign` allows one to change the convention for how the ad
+    operator acts, i.e. whether $Ad_Y(X) = \pm [Y, X]$.  
     """
     # If a single polynomial is given for Qs, instead of a list of length 1, remedy this error.
     if not isinstance(Qs, list):
