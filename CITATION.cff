@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Symmetries of Riemann surfaces and magnetic monopoles
+message: >-
+  Please cite this software by citing the corresponding
+  thesis.
+type: software
+authors:
+  - given-names: Alec Linden
+    family-names: Disney-Hogg
+    email: a.l.disney-hogg@sms.ed.ac.uk
+    orcid: 'https://orcid.org/0000-0002-6597-2463'
+    affiliation: University of Edinburgh
+identifiers:
+  - type: doi
+    value: 10.7488/era/4167
+    description: Link to thesis
+repository-code: >-
+  https://github.com/DisneyHogg/Riemann_Surfaces_and_Monopoles
