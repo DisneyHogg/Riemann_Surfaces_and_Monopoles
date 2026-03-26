@@ -1,4 +1,4 @@
-# Note this code came from a that initiall written by Paul Sutcliffe in March 2023. 
+# Note this code came from a that initially written by Paul Sutcliffe in March 2023. 
 # Linden Disney-Hogg subsequently edited the work flow allowing for multiprocessing
 # and spatial extents (x_vol) that are cuboidal. 
 
