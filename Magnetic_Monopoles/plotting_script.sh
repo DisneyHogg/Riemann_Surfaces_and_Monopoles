@@ -17,7 +17,7 @@
 
 # Any remaining parameters are passed to the nahmdata.py function, in this case we pass k, alpha, and sgn. 
 
-python monopole_plotting.py -T V4_nahmdata.py -p 1 -o V4_scattering -x 5 -y 3 -z 5 -s 0.77 -2.0 1.0
+python monopole_plotting.py -T V4_nahmdata.py -p 1 -o V4_scattering -x 5 -y 3 -z 5 -s 0.25 0.77 -2.0 1.0
 
 # Output is two files, numpy arrays of the same size storing the spatial extent (x_array) and the Higgs
 # field value at each corresponding spatial point (higgs_array).
