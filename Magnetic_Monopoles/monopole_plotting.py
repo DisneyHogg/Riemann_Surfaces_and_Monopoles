@@ -8,7 +8,6 @@ import numpy as np
 from scipy import integrate
 from numpy import linalg as LA
 from scipy.linalg import null_space
-import sys
 from scipy import special
 from scipy import pi
 
